@@ -39,10 +39,13 @@ header{
   min-width: 150px;
   box-shadow: 0px 8px 16px  rgba(0, 0, 0, 0.363);
   border-radius: 5px;
-  margin: 10px -40px;
+  margin: 5px -40px;
   padding: 10px;
   list-style: none;
+}
 
+.lista-idiomas li:hover{
+  background-color: #84b39e75 ;
 }
 
 .menu-idiomas:hover .lista-idiomas {
@@ -50,6 +53,7 @@ header{
 }
 
 .celula-animal{
+  height: 110vh;
   position: relative;
   z-index: 1;
   color: #f8f6f1;
@@ -72,7 +76,7 @@ h1{
 .celula-animal-img{
   display: block;     
   margin: 0 auto;  
-  padding: 50px;
+  padding: 50px 50px 20px;
   max-width: 500px;
 }
 
@@ -81,6 +85,13 @@ h1{
   position: absolute;
   top: 168px;
   right: 470px;
+}
+
+.membrana-plasmatica{
+  font-size: 12px;
+  position: absolute;
+  top: 200px;
+  right: 350px;
 }
 
 .citoplasma{
@@ -109,4 +120,56 @@ h1{
   position: absolute;
   top: 273px;
   right: 270px;
+}
+
+.lisossomo {
+  font-size: 12px;
+  position: absolute;
+  top: 450px;
+  right: 420px;
+}
+
+.vacuolo{
+  font-size: 12px;
+  position: absolute;
+  top: 469px;
+  right: 850px;
+}
+
+.complexo-golgi{
+  font-size: 12px;
+  position: absolute;
+  top: 428px;
+  right: 874px;
+}
+
+.peroxissomo{
+  font-size: 12px;
+  position: absolute;
+  top: 345px;
+  right: 918px;
+}
+
+.centriolo{
+  font-size: 12px;
+  position: absolute;
+  top: 255px;
+  right: 918px;
+}
+
+.mitocondria{
+  font-size: 12px;
+  position: absolute;
+  top: 197px;
+  right: 904px;
+}
+
+.saiba-mais{
+  font-size: 14px;
+  margin: 0px auto; 
+  padding: 8px 20px;
+  border: 2px solid #557a6a;
+  border-radius: 10px;
+  text-align: center;    
+  width: fit-content;   
 }
