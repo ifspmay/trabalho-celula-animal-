@@ -1,25 +1,112 @@
- body {
-      font-family: Arial, sans-serif;
-    }
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Special+Elite&display=swap');
 
-    
-    .menu-idiomas {
-      position: relative;
-      display: inline-block;
-    }
+*{
+  margin: 0;
+  padding: 0;
+  font-family: DM sans;
+}
 
-    .lista-idiomas {
-      display: none;
-      position: absolute;
-      background-color: white;
-      min-width: 150px;
-      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-      border-radius: 5px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-    
-    .menu-idiomas:hover .lista-idiomas {
-      display: block;
-    }
+header{
+  padding:10px;
+  background-color: #f8f6f1;
+  display: flex;
+  justify-content: end;
+}
+
+.menu-idiomas {
+  position: relative;
+  z-index: 2;
+}
+
+.menu-idiomas a{
+  text-decoration: none;
+  color: #323232;
+}
+
+.bnt-idioma {
+  font-size: 14px;
+  margin-right: 10px;
+  padding: 3px 35px;
+  border: 2px solid #557a6a;
+  border-radius: 10px;
+
+}
+
+.lista-idiomas {
+  display: none;
+  position: absolute;
+  background-color: #f8f6f1;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px  rgba(0, 0, 0, 0.363);
+  border-radius: 5px;
+  margin: 10px -40px;
+  padding: 10px;
+  list-style: none;
+
+}
+
+.menu-idiomas:hover .lista-idiomas {
+  display: block;
+}
+
+.celula-animal{
+  position: relative;
+  z-index: 1;
+  color: #f8f6f1;
+  background-color: #2f4e41;
+}
+
+.celula-animal a{
+  text-decoration: none;
+  color: #f8f6f1;
+}
+
+h1{
+  font-family: special elite;
+  text-align: center;
+  padding-top: 50px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.celula-animal-img{
+  display: block;     
+  margin: 0 auto;  
+  padding: 50px;
+  max-width: 500px;
+}
+
+.nucleo {
+  font-size: 12px;
+  position: absolute;
+  top: 168px;
+  right: 470px;
+}
+
+.citoplasma{
+  font-size: 12px;
+  position: absolute;
+  top: 353px;
+  right: 368px;
+}
+
+.rel{
+  font-size: 12px;
+  position: absolute;
+  top: 305px;
+  right: 273px;
+}
+
+.ribossomo{
+  font-size: 12px;
+  position: absolute;
+  top: 243px;
+  right: 373px;
+}
+
+.rer{
+  font-size: 12px;
+  position: absolute;
+  top: 273px;
+  right: 270px;
+}
