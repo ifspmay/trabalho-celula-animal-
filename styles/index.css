@@ -2,23 +2,12 @@
       font-family: Arial, sans-serif;
     }
 
-    /* Container do menu */
+    
     .menu-idiomas {
       position: relative;
       display: inline-block;
     }
 
-    /* Botão visível */
-    /* .menu-idiomas > a {
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 5px;
-      display: inline-block;
-    } */
-
-    /* Lista escondida */
     .lista-idiomas {
       display: none;
       position: absolute;
@@ -30,27 +19,7 @@
       padding: 0;
       list-style: none;
     }
-
-    /* .lista-idiomas li {
-      border-bottom: 1px solid #ddd;
-    }
-
-    .lista-idiomas li:last-child {
-      border-bottom: none;
-    }
-
-    .lista-idiomas li a {
-      display: block;
-      padding: 10px;
-      text-decoration: none;
-      color: black;
-    }
-
-    .lista-idiomas li a:hover {
-      background-color: #f1f1f1;
-    } */
-
-    /* Mostra o menu ao passar o mouse */
+    
     .menu-idiomas:hover .lista-idiomas {
       display: block;
     }
