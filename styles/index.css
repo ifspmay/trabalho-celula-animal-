@@ -172,4 +172,129 @@ h1{
   border-radius: 10px;
   text-align: center;    
   width: fit-content;   
+  display: block;
+}
+
+.o-que-sao-celulas{
+  height: 110vh;
+  background-color: #f8f6f1;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.celulas-imagem{
+  border-radius: 75%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.o-que-sao-celulas-texto{
+  padding: 25px;
+  width: 500px;
+  color: #323232;
+}
+
+.o-que-sao-celulas-texto h2{
+  color:#2f4e41;
+  width: 200px;
+  padding: 0px 0px 10px;
+}
+
+h2{
+  font-family: special elite;
+  font-weight: 100;
+}
+
+.definicao-celula-animal{
+  background-color: #2f4e41;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.definicao-celula-animal-texto{
+  color: #f8f6f1;
+  max-width: 285px;
+  text-align: justify;
+  padding: 0px 50px ;
+  display: flex;
+  flex-direction: column;
+  margin-top:200px;
+}
+
+.definicao-celula-animal-texto h2{
+  font-size: 30px;
+}
+
+.celula-microscopio-imagem{
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+}
+
+.veja-organelas{
+  color: #f8f6f1;
+  border: 2px solid #b6ebc3;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 100px 0px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.organelas-um{
+  background-color: #f8f6f1;
+  height: 120vh;
+  padding: 40px;
+  text-align: justify;
+}
+
+.nucleo-membrana{ 
+  display: flex;
+}
+
+.organela-nucleo, .organela-membrana{
+  width: 50%;
+  display: flex;
+  padding-top: 100px;
+}
+
+.nucleo-imagem, .membrana-imagem{
+  max-width: 500px;
+  max-height: 200px;
+}
+
+.citoplasma-mitocondria{
+  display: flex;
+}
+
+.organela-citoplasma, .organela-mitocondria{
+  padding: 50px;
+  width: 50%;
+  display: flex;
+}
+
+.citoplasma-imagem {
+  max-width: 500px;
+  max-height: 200px;
+}
+
+.mitocondria-imagem{
+  max-width: 250px;
+  max-height: 150px;
+}
+
+.organelas-dois{
+  background-color:#557a6a ;
+}
+
+.organelas-tres{
+  background-color: #2f4e41;
+}
+
+footer{
+  background-color: #323232;
 }
