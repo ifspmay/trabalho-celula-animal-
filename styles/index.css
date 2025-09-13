@@ -247,54 +247,103 @@ h2{
 
 .organelas-um{
   background-color: #f8f6f1;
-  height: 120vh;
-  padding: 40px;
   text-align: justify;
 }
 
-.nucleo-membrana{ 
+.nucleo-membrana, .citoplasma-mitocondria{
   display: flex;
+  justify-content: center;
+  color:#2f4e41;
 }
 
-.organela-nucleo, .organela-membrana{
-  width: 50%;
+.organela-nucleo, .organela-membrana, .organela-citoplasma,
+.organela-mitocondria{
   display: flex;
-  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  padding: 40px;
 }
 
-.nucleo-imagem, .membrana-imagem{
-  max-width: 500px;
-  max-height: 200px;
-}
-
-.citoplasma-mitocondria{
-  display: flex;
-}
-
-.organela-citoplasma, .organela-mitocondria{
-  padding: 50px;
-  width: 50%;
-  display: flex;
-}
-
-.citoplasma-imagem {
-  max-width: 500px;
-  max-height: 200px;
+.nucleo-imagem, .membrana-imagem, .citoplasma-imagem{
+  max-width: 300px;
+  max-height: 180px;
 }
 
 .mitocondria-imagem{
-  max-width: 250px;
+  max-width: 200px;
   max-height: 150px;
+  padding: 50px;
 }
 
 .organelas-dois{
-  background-color:#557a6a ;
+  background-color: #557a6a;
+  color:#f8f6f1;
+  text-align: justify;
 }
 
-.organelas-tres{
-  background-color: #2f4e41;
+.organela-re{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
 
-footer{
-  background-color: #323232;
+.re-imagem{
+  max-width: 300px;
+  padding-right: 40px;
+}
+
+.re-texto{
+  width: 500px;
+  text-align: justify;
+}
+
+.re-tipos{
+  color:#2f4e41;
+  background-color: #f8f0de ;
+  border-radius: 50px;
+  display: flex;
+  margin: 20px;
+}
+
+.organela-rer, .organela-rel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.rer-imagem{
+  width: 280px;
+}
+
+.rel-imagem{
+  width: 200px;
+  padding-right: 40px;
+}
+
+.rer-texto{
+  width: 350px;
+}
+
+h3{
+  font-family: special elite;
+}
+
+.complexo-lisossomo{
+  display:flex;
+  justify-content: center;
+}
+
+.organela-complexo-golgi, .organela-lisossomo{
+  display: flex;
+  width: 600px;
+  padding: 40px;
+  align-items: center;
+}
+
+.complexo-golgi-img, .lisossomo-img{
+  max-width: 300px;
+  max-height: 200px;
 }
