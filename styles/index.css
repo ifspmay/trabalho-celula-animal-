@@ -343,7 +343,54 @@ h3{
   align-items: center;
 }
 
-.complexo-golgi-img, .lisossomo-img{
+.complexo-golgi-img{
   max-width: 300px;
   max-height: 200px;
+  padding: 20px;
 }
+
+.lisossomo-img{
+  max-width: 250px;
+  max-height: 150px;
+}
+
+.organelas-tres{
+  background-color: #2f4e41;
+  text-align: justify;
+}
+
+.ribossomo-centriolo, .peroxissomo-vacuolo{
+  display: flex;
+  justify-content: center;
+  color:#f8f6f1;
+}
+
+.organela-ribossomo, .organela-centriolo, .organela-peroxissomo,
+.organela-vacuolo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  padding: 40px;
+}
+
+.ribossomo-img, .centriolo-img, .peroxissomo-img, .vacuolo-img{
+  max-width: 300px;
+  max-height: 180px;
+  padding: 20px;
+}
+
+footer{
+  background-color: #323232;
+  color: #f8f6f1;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alunos p{
+  padding-top:10px ;
+  color: #f8f6f1b2;
+}
+

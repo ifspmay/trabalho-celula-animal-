@@ -25,8 +25,8 @@
             <a href="#citoplasma" class="citoplasma">Citoplasma</a>
             <a href="#membrana-plasmatica" class="membrana-plasmatica">Membrana plasmática</a>
             <a href="#mitocondrias" class="mitocondria">Mitocôndrias</a>
-            <a href="#rer" class="rer">Retículo endoplasmático rugoso</a>
-            <a href="#rel" class="rel">Retículo endoplasmático liso</a>
+            <a href="#re" class="rer">Retículo endoplasmático rugoso</a>
+            <a href="#re" class="rel">Retículo endoplasmático liso</a>
             <a href="#complexo-golgi" class="complexo-golgi">Complexo de Golgi</a>
             <a href="#lisossomo" class="lisossomo">Lisossomo</a>
             <a href="#ribossomo" class="ribossomo">Ribossomo</a>
@@ -61,14 +61,14 @@
         </div>
         <div class="organelas-um" id="organelas">
             <div class="nucleo-membrana">
-                <div class="organela-nucleo">
+                <div class="organela-nucleo" id="nucleo">
                     <img src="./styles/images/organelas/nucleo.png" alt="imagem do nucleo da celula" class="nucleo-imagem">
                     <div class="nucleo-texto">
                         <h2>O nucleo</h2>
                         <p>é a "central de controlo" das células eucarióticas (animais, plantas, fungos, etc.), armazenando o DNA (o material genético) e controlando as atividades da célula, como a produção de proteínas e a divisão celular.</p>
                     </div>
                 </div>
-                <div class="organela-membrana">
+                <div class="organela-membrana" id="membrana-plasmatica">
                     <img src="./styles/images/organelas/membrana-plasmatica.png" alt="imagem membrana plasmatica" class="membrana-imagem">
                     <div class="membrana-texto">
                         <h2>A membrana plasmatica</h2>
@@ -77,14 +77,14 @@
                 </div>
             </div>
             <div class="citoplasma-mitocondria">
-                <div class="organela-citoplasma">
+                <div class="organela-citoplasma" id="citoplasma">
                     <img src="./styles/images/organelas/citoplasma.png" alt="imagem do citoplasma da celula" class="citoplasma-imagem">
                     <div class="citoplasma-texto">
                         <h2>O citoplasma</h2>
                         <p>é a região da célula entre a membrana plasmática e o núcleo. Ele é composto principalmente pelo citosol (um fluido gelatinoso), pelas organelas celulares e outras estruturas como o citoesqueleto.</p>
                     </div>
                 </div>
-                <div class="organela-mitocondria">
+                <div class="organela-mitocondria" id="mitocondrias">
                     <img src="./styles/images/organelas/mitocondria.png" alt="imagem mitocondria" class="mitocondria-imagem">
                     <div class="mitocondria-texto">
                         <h2>A mitocondria</h2>
@@ -94,7 +94,7 @@
             </div>
         </div>
         <div class="organelas-dois">
-            <div class="organela-re">
+            <div class="organela-re" id="re">
                 <img src="./styles/images/organelas/reticulo-endoplasmatico.png" alt="imagem reticulo endoplasmatico" class="re-imagem">
                 <div class="re-texto">
                     <h2>O reticulo endoplasmatico</h2>
@@ -118,14 +118,14 @@
                 </div>
             </div>
             <div class="complexo-lisossomo">
-                <div class="organela-complexo-golgi">
+                <div class="organela-complexo-golgi" id="complexo-golgi">
                     <img src="./styles/images/organelas/complexo de golgi.png" alt="imagem complexo de golgi" class="complexo-golgi-img">
                     <div class="complexo-golgi-texto">
                         <h2>O complexo de golgi</h2>
                         <p>é uma formada por pilhas de sacos membranosos achatados. Sua principal função é organizar, modificar e empacotar proteínas e lipídios produzidos pelo retículo endoplasmático, preparando-os para uso dentro da célula ou para serem enviados para fora dela.</p>
                     </div>
                 </div>
-                <div class="organela-lisossomo">
+                <div class="organela-lisossomo" id="lisossomo">
                     <img src="./styles/images/organelas/lisossomo.png" alt="iamgem lisossomo" class="lisossomo-img">
                     <div class="lisossomo-text">
                         <h2>Os lisossomos</h2>
@@ -135,42 +135,54 @@
             </div>
         </div>
         <div class="organelas-tres">
-            <div class="organela-ribossomo">
-                <img src="./styles/images/organelas/ribossomo.png" alt="imagem ribossomo" class="ribossomo-img">
-                <div class="ribossomo-text">
-                    <h2>Os ribossomos</h2>
-                    <p>são pequenas organelas presentes em todas os tipos de célula. Eles são responsáveis pela síntese de proteínas, lendo as instruções do RNA mensageiro e montando os aminoácidos na ordem correta. Podem estar soltos no citoplasma ou presos ao retículo endoplasmático rugoso, dependendo de onde a proteína será usada.</p>
+            <div class="ribossomo-centriolo">
+                <div class="organela-ribossomo" id="ribossomo">
+                    <img src="./styles/images/organelas/ribossomo.png" alt="imagem ribossomo" class="ribossomo-img">
+                    <div class="ribossomo-text">
+                        <h2>Os ribossomos</h2>
+                        <p>são pequenas organelas presentes em todas os tipos de célula. Eles são responsáveis pela síntese de proteínas, lendo as instruções do RNA mensageiro e montando os aminoácidos na ordem correta. Podem estar soltos no citoplasma ou presos ao retículo endoplasmático rugoso, dependendo de onde a proteína será usada.</p>
+                    </div>
+                </div>
+                <div class="organela-centriolo" id="centriolo">
+                    <img src="./styles/images/organelas/centriolo.png" alt="imagem centriolos" class="centriolo-img">
+                    <div class="centriolo-text">
+                        <h2>Os centríolos</h2>
+                        <p>são organelas cilíndricas encontradas em células animais. Eles têm um papel fundamental na divisão celular, ajudando a organizar o fuso mitótico, que separa os cromossomos durante a mitose e a meiose. Além disso, participam da formação de cilios e flagelos, estruturas importantes para o movimento celular.</p>
+                    </div>
                 </div>
             </div>
-            <div class="organela-centriolo">
-                <img src="./styles/images/organelas/centriolo.png" alt="imagem centriolos" class="centriolo-img">
-                <div class="centriolo-text">
-                    <h2>Os centríolos</h2>
-                    <p>são organelas cilíndricas encontradas em células animais. Eles têm um papel fundamental na divisão celular, ajudando a organizar o fuso mitótico, que separa os cromossomos durante a mitose e a meiose. Além disso, participam da formação de cilios e flagelos, estruturas importantes para o movimento celular.</p>
+            <div class="peroxissomo-vacuolo">
+                <div class="organela-peroxissomo" id="peroxissomo">
+                    <img src="./styles/images/organelas/peroxissomo.png" alt="imagem peroxissomo" class="peroxissomo-img">
+                    <div class="peroxissomo-text">
+                        <h2>Os peroxissomos</h2>
+                        <p>são organelas pequenas e revestidas por uma única membrana, encontradas em células eucarióticas, que contêm enzimas oxidativas, como a catalase, para desintoxicar a célula, metabolizar gorduras e realizar a síntese de fosfolipídios.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="organela-peroxissomo">
-                <img src="./styles/images/organelas/peroxissomo.png" alt="imagem peroxissomo" class="peroxissomo-img">
-                <div class="peroxissomo-text">
-                    <h2>Os peroxissomos</h2>
-                    <p>são organelas pequenas e revestidas por uma única membrana, encontradas em células eucarióticas, que contêm enzimas oxidativas, como a catalase, para desintoxicar a célula, metabolizar gorduras e realizar a síntese de fosfolipídios.</p>
-                </div>
-            </div>
-            <div class="organela-vacuolo">
-                <img src="./styles/images/organelas/vacuolo.png" alt="imagem vacuolo" class="vacuolo-img">
-                <div class="vacuolo-text">
-                    <h2>Os vacúolos</h2>
-                    <p>são pequenas vesículas delimitadas por membrana que têm funções como armazenar substâncias (como resíduos e nutrientes), auxiliar na digestão celular e ajudar na regulação osmótica. Ao contrário do vacúolo central grande das células vegetais, os vacúolos animais são geralmente menores, mais numerosos e temporários. </p>
+                <div class="organela-vacuolo" id="vacuolo">
+                    <img src="./styles/images/organelas/vacuolo.png" alt="imagem vacuolo" class="vacuolo-img">
+                    <div class="vacuolo-text">
+                        <h2>Os vacúolos</h2>
+                        <p>são pequenas vesículas delimitadas por membrana que têm funções como armazenar substâncias (como resíduos e nutrientes), auxiliar na digestão celular e ajudar na regulação osmótica. Ao contrário do vacúolo central grande das células vegetais, os vacúolos animais são geralmente menores, mais numerosos e temporários. </p>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <h4>Site desenvolvido pelos alunos</h4>
-        <p>MAYSA PEREIRA DE ALMEIDA <br>
-            MANUELA ANGELY DOS CAMPOS <br>
-            LUIZ MIGUEL
-        </p>
+        <div class="alunos">
+            <h4>Site desenvolvido pelos alunos</h4>
+            <p><strong>
+                    MAYSA PEREIRA DE ALMEIDA <br>
+                    MANUELA ANGELY DOS CAMPOS <br>
+                    LUIZ MIGUEL
+            </strong>
+            </p>
+        </div>
+        <div class="info">
+            <p><strong>1° INFORMATICA, 2025</strong></p>
+            <P><strong>IFSP-BRA</strong></P>
+        </div>
     </footer>
 </body>
 </html>
