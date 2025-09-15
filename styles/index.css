@@ -394,3 +394,109 @@ footer{
   color: #f8f6f1b2;
 }
 
+/* RESPONSIVIDADE MOBILE */
+@media (max-width: 900px) {
+  /* Organelas em coluna */
+  .nucleo-membrana,
+  .citoplasma-mitocondria,
+  .complexo-lisossomo,
+  .ribossomo-centriolo,
+  .peroxissomo-vacuolo,
+  .re-tipos {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px;
+    max-width: 95vw;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .organela-nucleo, .organela-membrana, .organela-citoplasma,
+  .organela-mitocondria, .organela-rer, .organela-rel,
+  .organela-complexo-golgi, .organela-lisossomo,
+  .organela-ribossomo, .organela-centriolo, .organela-peroxissomo, .organela-vacuolo {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+    align-items: center;
+  }
+  /* Imagens menores e centralizadas */
+  .celula-animal-img,
+  .celulas-imagem,
+  .celula-microscopio-imagem,
+  .nucleo-imagem, .membrana-imagem, .citoplasma-imagem,
+  .mitocondria-imagem,
+  .re-imagem,
+  .rer-imagem,
+  .rel-imagem,
+  .complexo-golgi-img,
+  .lisossomo-img,
+  .ribossomo-img, .centriolo-img, .peroxissomo-img, .vacuolo-img {
+    max-width: 90vw;
+    height: auto;
+    padding: 10px 0;
+    display: block;
+    margin: 0 auto;
+  }
+  .re-imagem {
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .re-texto {
+    text-align: justify;
+    margin: 0 auto;
+    width: 80%;
+  }
+  /* Textos com padding lateral */
+  .o-que-sao-celulas-texto,
+  .definicao-celula-animal-texto,
+  .re-texto,
+  .rer-texto {
+    width: 100%;
+    padding: 0 5vw;
+    box-sizing: border-box;
+  }
+  /* Ajuste geral de seções */
+  .o-que-sao-celulas,
+  .definicao-celula-animal {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px 0;
+  }
+  /* Footer e header */
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+  }
+  header {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  /* Labels das organelas (absolutos) ficam estáticos no mobile */
+  .nucleo, .membrana-plasmatica, .citoplasma, .rel, .ribossomo, .rer, .lisossomo, .vacuolo, .complexo-golgi, .peroxissomo, .centriolo, .mitocondria {
+    position: static;
+    display: block;
+    margin: 5px 0;
+    right: auto;
+    top: auto;
+  }
+
+  .organela-re {
+    width: 80%;
+    padding: 20px 0;
+    margin: 0 auto;
+  }
+
+  .re-tipos {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 90%;
+    box-sizing: border-box;
+  }
+}
