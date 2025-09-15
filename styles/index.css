@@ -440,6 +440,7 @@ footer{
     margin: 0 auto;
   }
   .re-imagem {
+    content: url('../styles/images/alternative-re-image.png');
     max-width: 60%;
     height: auto;
     margin: 0 auto;
